@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cout<<"Ingrese un numero"<<endl;
+    cin>>a;
+    if(50<a and a<500)
+        cout<<"El numero se encuentra entre 50 y 500"<<endl;
+    else
+        cout<<"El numero no se encuentra entre 50 y 500"<<endl;
+
+
+}
